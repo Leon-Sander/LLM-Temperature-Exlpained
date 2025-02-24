@@ -11,9 +11,8 @@ Temperature is a **hyperparameter** used in language models to control the **ran
 ## How Temperature Works in Softmax
 The softmax function converts model logits (raw scores) into probabilities:
 
-\[
-P(i) = \frac{e^{z_i / T}}{\sum_j e^{z_j / T}}
-\]
+$P(i) = \frac{e^{z_i / T}}{\sum_j e^{z_j / T}}$
+
 
 Where:
 - \( z_i \) is the logit for token \( i \)
